@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to handle deep links.  The `Linking.addEventListener` method may not always trigger when a deep link is opened, particularly on Android. This can lead to a situation where the app doesn't react to deep links as expected, effectively ignoring the external intent.
